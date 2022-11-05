@@ -7,9 +7,16 @@ import section2headphone from "../../../images/home/section2/xheadphones.png";
 import section2speaker from "../../../images/home/section2/xspeakers.png";
 import section2earphone from "../../../images/home/section2/xearphones.png";
 import arrowright from "../../../images/home/section2/icon-arrow-right.svg";
-import section3mobile from "../../../images/home/section3/mobile/image-speaker-zx9.png";
-import section3tablet from "../../../images/home/section3/tablet/image-speaker-zx9.png";
-import section3desktop from "../../../images/home/section3/desktop/image-speaker-zx9.png";
+import section3mobile from "../../../images/home/mobile/image-speaker-zx9.png";
+import section3tablet from "../../../images/home/tablet/image-speaker-zx9.png";
+import section3desktop from "../../../images/home/desktop/image-speaker-zx9.png";
+import section3circles from "../../../images/home/desktop/pattern-circles.svg";
+import section4mobile from "../../../images/home/mobile/image-speaker-zx7.jpg";
+import section4tablet from "../../../images/home/tablet/image-speaker-zx7.jpg";
+import section4desktop from "../../../images/home/desktop/image-speaker-zx7.jpg";
+import section5mobile from "../../../images/home/mobile/image-earphones-yx1.jpg";
+import section5tablet from "../../../images/home/tablet/image-earphones-yx1.jpg";
+import section5desktop from "../../../images/home/desktop/image-earphones-yx1.jpg";
 
 const home = () => {
   return (
@@ -66,17 +73,43 @@ const home = () => {
       </div>
 
       <div className="section3">
-        {/* <div className="orangeimages">
-          <img className="desktop" src={section3mobile} alt="" />
+        <div className="orangeimages">
+          <img className="desktop" src={section3desktop} alt="" />
           <img className="tablet" src={section3tablet} alt="" />
-          <img className="mobile" src={section3desktop} alt="" />
-        </div> */}
+          <img className="mobile" src={section3mobile} alt="" />
+          {/* <img className="mobile" src={section3circles} alt="" /> */}
+        </div>
         <div className="orangetext">
-          <h3>ZX9 speaker</h3>
+          <h3>
+            ZX9 <br /> speaker
+          </h3>
           <h6>
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </h6>
+          <a href="#" className="btn">
+            See product
+          </a>
+        </div>
+      </div>
+
+      <div className="section4">
+        <div className="greytext">
+          <h3>ZX7 speaker</h3>
+          <a href="#" className="btn">
+            See product
+          </a>
+        </div>
+        <img className="desktop" src={section4desktop} alt="" />
+        <img className="tablet" src={section4tablet} alt="" />
+        <img className="mobile" src={section4mobile} alt="" />
+      </div>
+      <div className="section5">
+        <img className="desktop" src={section5desktop} alt="" />
+        <img className="tablet" src={section5tablet} alt="" />
+        <img className="mobile" src={section5mobile} alt="" />
+        <div className="darktext">
+          <h3> YX1 earphones</h3>
           <a href="#" className="btn">
             See product
           </a>
