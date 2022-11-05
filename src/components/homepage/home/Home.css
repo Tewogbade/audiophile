@@ -40,14 +40,14 @@
   mix-blend-mode: normal;
   opacity: 0.5;
 }
-h1 {
+.home1texts h1 {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-h6 {
+.home1texts h6 {
   padding: 1rem;
   font-weight: 500;
   font-size: 16px;

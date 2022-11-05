@@ -66,11 +66,11 @@ const home = () => {
       </div>
 
       <div className="section3">
-        <div className="orangeimages">
+        {/* <div className="orangeimages">
           <img className="desktop" src={section3mobile} alt="" />
           <img className="tablet" src={section3tablet} alt="" />
           <img className="mobile" src={section3desktop} alt="" />
-        </div>
+        </div> */}
         <div className="orangetext">
           <h3>ZX9 speaker</h3>
           <h6>
