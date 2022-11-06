@@ -3,7 +3,7 @@
 nav {
   background-color: #191919;
   border-bottom: 1px solid #aaaaaa;
-  margin: 0 1rem;
+  /* margin: 0 1rem; */
 }
 
 .navbar .navbar-nav {
@@ -24,15 +24,15 @@ nav {
 }
 
 @media (min-width: 769px) and (max-width: 1198px) {
-  #allnav {
+  /* #allnav {
     margin: 0 3rem;
-  }
+  } */
 }
 
 @media (min-width: 1199px) {
-  #allnav {
+  /* #allnav {
     margin: 0 5rem;
-  }
+  } */
 }
 
 /* @media (max-width: 990px) {
