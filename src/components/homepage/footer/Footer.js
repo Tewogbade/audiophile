@@ -7,6 +7,7 @@ import audiophilelogo from "../../../images/home/shared/desktop/audiophilelogo.p
 import facebook from "../../../images/home/shared/desktop/icon-facebook.svg";
 import twitter from "../../../images/home/shared/desktop/icon-twitter.svg";
 import instagram from "../../../images/home/shared/desktop/icon-instagram.svg";
+import { Link, useLocation } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -38,10 +39,10 @@ const Footer = () => {
         <div className="navitem">
           <img src={audiophilelogo} alt="" />
           <div className="navlink">
-            <a href="#">HOME</a>
-            <a href="#">HEADPHONES</a>
-            <a href="#">SPEAKERS</a>
-            <a href="#">EARPHONES</a>
+            <Link to="/">HOME</Link>
+            <Link to="/headphones">HEADPHONES</Link>
+            <Link to="/speakers">SPEAKERS</Link>
+            <Link to="/earphones">EARPHONES</Link>
           </div>
         </div>
         <p>

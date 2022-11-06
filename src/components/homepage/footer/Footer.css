@@ -100,7 +100,7 @@ body {
   }
 
   .fsection1 {
-    margin: 2rem 3rem 7rem;
+    margin: 5rem 3rem 7rem;
   }
   .fsection1 .tablet {
     border-radius: 10px;
@@ -165,7 +165,7 @@ body {
     display: none;
   }
   .fsection1 {
-    margin: 2rem 5rem 7rem;
+    margin: 7rem 5rem;
     flex-direction: row-reverse;
     display: grid;
     grid-template-columns: 0 50% 50%;

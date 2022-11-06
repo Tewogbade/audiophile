@@ -13,8 +13,13 @@ nav {
 
 .navbar .navbar-nav a {
   font-family: "Manrope", sans-serif;
+  font-weight: 700;
   font-size: 13px;
-  color: #ffff;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
 }
 .navbar .navbar-nav .active {
   color: #d87d4a;
@@ -35,11 +40,8 @@ nav {
   } */
 }
 
-/* @media (max-width: 990px) {
+@media (max-width: 990px) {
   .navbar .navbar-nav a {
     margin: 1.2rem 0;
   }
-  .navbar .navbar-nav {
-    margin: -20rem;
-  }
-} */
+}
