@@ -1,9 +1,14 @@
 import React from "react";
 import "../navbar/Navbar.css";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { Link, useLocation } from "react-router-dom";
 // import navimage from "../../../images/home/desktop/audiophilelogo.svg";
 
 const Navbar = () => {
+  const location = useLocation();
+  const { pathname: exactLocation } = location;
+  const checkLocation = exactLocation.split("/");
+  console.log(checkLocation);
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark  py-4" id="allnav">
@@ -25,18 +30,31 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ">
-              <a className="nav-link " aria-current="page" href="#">
+              <Link
+                className={checkLocation[1] === "" ? "active" : ""}
+                aria-current="page"
+                to="/"
+              >
                 HOME
-              </a>
-              <a className="nav-link" href="#">
+              </Link>
+              <Link
+                className={checkLocation[1] === "headphones" ? "active" : ""}
+                to="/headphones"
+              >
                 HEADPHONES
-              </a>
-              <a className="nav-link active" href="#">
+              </Link>
+              <Link
+                className={checkLocation[1] === "speakers" ? "active" : ""}
+                to="/speakers"
+              >
                 SPEAKERS
-              </a>
-              <a className="nav-link" href="#">
+              </Link>
+              <Link
+                className={checkLocation[1] === "earphones" ? "active" : ""}
+                to="/earphones"
+              >
                 EARPHONES
-              </a>
+              </Link>
             </div>
             <a href="#" className="carticon text-white">
               <AiOutlineShoppingCart />

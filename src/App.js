@@ -1,14 +1,24 @@
 import "./App.css";
-import Navbar from "./components/homepage/navbar/Navbar";
 import Home from "./components/homepage/home/Home";
-import Footer from "./components/homepage/footer/Footer";
+import Headphones from "./components/headphones/Headphones";
+import Speakers from "./components/speakers/Speakers";
+import Earphones from "./components/earphones/Earphones";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" exact element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="headphones" element={<Headphones />} />
+            <Route path="speakers" element={<Speakers />} />
+            <Route path="earphones" element={<Earphones />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

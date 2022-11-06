@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
-#allnav {
+
+nav {
   background-color: #191919;
   border-bottom: 1px solid #aaaaaa;
   margin: 0 1rem;
 }
+
 .navbar .navbar-nav {
   margin: auto;
   column-gap: 25px;
