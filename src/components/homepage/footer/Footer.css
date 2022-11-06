@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.desktop {
+  display: none;
+}
+.tablet {
+  display: none;
+}
+.mobile {
+  width: 100%;
+}
+.fsection1 {
+  margin: 2rem 1rem 7rem;
+}
+.fsection1 .mobile {
+  border-radius: 10px;
+}
+.footer1text {
+  margin: auto;
+  margin-top: 2rem;
+  color: #000000;
+  width: 327px;
+}
+.footer1text h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.footer1text p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.footer1text span {
+  color: #d87d4a;
+}
+.fsection2 {
+  background-color: #000000;
+  color: #fff;
+}
+.navitem img {
+  padding: 4rem 0;
+  border-top: 5px solid #d87d4a;
+}
+.navitem a {
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 1.5rem;
+}
+.fsection2 p {
+  margin: auto;
+  padding-top: 3rem;
+  width: 327px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.links {
+  padding: 3rem 0;
+}
+.links a {
+  margin: 0 10px;
+}
+.fsection2 a:hover {
+  color: #d87d4a;
+}
+
+@media (min-width: 769px) and (max-width: 1198px) {
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: block;
+    width: 100%;
+  }
+  .mobile {
+    display: none;
+  }
+
+  .fsection1 {
+    margin: 2rem 3rem 7rem;
+  }
+  .fsection1 .tablet {
+    border-radius: 10px;
+  }
+  .footer1text {
+    margin: auto;
+    margin-top: 2rem;
+    color: #000000;
+    width: 573px;
+  }
+  .footer1text h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .fsection2 {
+    padding: 0 3rem;
+    text-align: start;
+  }
+
+  .navitem a {
+    display: inline;
+    padding: 0 1rem;
+  }
+  .fsection2 p {
+    margin: 0;
+    padding-top: 3rem;
+    width: 689px;
+    text-align: start;
+  }
+  .lastitem {
+    display: grid;
+    grid-template-columns: 82% 18%;
+  }
+  .links {
+    display: flex;
+    padding: 3rem 0;
+  }
+
+  .links a {
+    margin: 0 10px;
+    text-align: end;
+    justify-content: end;
+  }
+}
+
+@media (min-width: 1199px) {
+  .desktop {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .tablet {
+    display: none;
+  }
+  .mobile {
+    display: none;
+  }
+  .fsection1 {
+    margin: 2rem 5rem 7rem;
+    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: 0 50% 50%;
+  }
+
+  .fsection1 .desktop {
+    border-radius: 10px;
+  }
+
+  .footer1text {
+    margin: auto;
+    margin-left: 0;
+    color: #000000;
+    width: 445px;
+    justify-content: start;
+    text-align: start;
+    box-sizing: border-box;
+  }
+
+  .footer1text h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: start;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .footer1text p {
+    text-align: start;
+  }
+
+  .fsection2 {
+    padding: 0 5rem;
+    text-align: start;
+    display: block;
+  }
+
+  .navitem a {
+    display: inline;
+    padding: 0rem 1rem;
+  }
+  .navlink {
+    padding-top: 4rem;
+    text-align: end;
+  }
+
+  .navitem {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .fsection2 p {
+    margin: 0;
+    padding-top: 3rem;
+    width: 689px;
+    text-align: start;
+  }
+  .lastitem {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    text-align: end;
+  }
+  .links {
+    display: flex;
+    padding: 3rem 0;
+    text-align: end;
+  }
+  .links a {
+    margin: 0 10px;
+  }
+}
