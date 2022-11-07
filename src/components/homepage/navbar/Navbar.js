@@ -2,7 +2,6 @@ import React from "react";
 import "../navbar/Navbar.css";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
-// import navimage from "../../../images/home/desktop/audiophilelogo.svg";
 import audiophilelogo from "../../../images/home/shared/desktop/audiophilelogo.png";
 
 const Navbar = () => {

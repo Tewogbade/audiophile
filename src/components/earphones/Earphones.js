@@ -27,13 +27,14 @@ const Earphones = () => {
           <div className="earphonestext">
             <h6>New product</h6>
             <h2>
-              ZX9 <br /> speaker
+              YX1 wireless
+              <br /> earphones
             </h2>
             <p>
-              Upgrade your sound system with the all new ZX9 active speaker.
-              It’s a bookshelf speaker system that offers truly wireless
-              connectivity -- creating new possibilities for more pleasing and
-              practical audio setups.
+              Tailor your listening experience with bespoke dynamic drivers from
+              the new YX1 Wireless Earphones. Enjoy incredible high-fidelity
+              sound even in noisy environments with its active noise
+              cancellation feature.
             </p>
             <a href="#" className="btn">
               See product
