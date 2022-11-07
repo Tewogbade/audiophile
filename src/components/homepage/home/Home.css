@@ -263,6 +263,7 @@ body {
   .home1texts {
     width: 400px;
   }
+
   .home1texts h6 {
     padding: 1rem 0;
     font-weight: 500;
@@ -360,7 +361,9 @@ body {
     width: 400px;
     margin-left: 5rem;
   }
-
+  .home1texts p {
+    text-align: start;
+  }
   .home1texts h6 {
     padding: 1rem 0;
     font-weight: 500;
