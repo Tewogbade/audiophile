@@ -1,5 +1,7 @@
 import React from "react";
 import "../headphones/Headphones.css";
+import { Link } from "react-router-dom";
+
 import headphonesMarkIIm from "../../images/headphones/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg";
 import headphonesMarkIIt from "../../images/headphones/product-xx99-mark-two-headphones/tablet/image-category-page-preview.jpg";
 import headphonesMarkIId from "../../images/headphones/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg";
@@ -94,27 +96,28 @@ const Headphones = () => {
             <img className="ximages" src={section2headphone} alt="" />
             <div className="greybox">
               <h6>Headphones</h6>
-              <a href="#">
+
+              <Link to="/headphones">
                 Shop <img src={arrowright} alt="" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="pair">
             <img className="ximages" src={section2speaker} alt="" />
             <div className="greybox">
               <h6>Speakers</h6>
-              <a href="#">
+              <Link to="/speakers">
                 Shop <img src={arrowright} alt="" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="pair">
             <img className="ximages" src={section2earphone} alt="" />
             <div className="greybox">
               <h6>Earphones</h6>
-              <a href="#">
+              <Link to="/earphones">
                 Shop <img src={arrowright} alt="" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

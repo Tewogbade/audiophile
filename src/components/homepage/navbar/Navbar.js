@@ -3,6 +3,7 @@ import "../navbar/Navbar.css";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
 // import navimage from "../../../images/home/desktop/audiophilelogo.svg";
+import audiophilelogo from "../../../images/home/shared/desktop/audiophilelogo.png";
 
 const Navbar = () => {
   const location = useLocation();
@@ -14,8 +15,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark  py-4" id="allnav">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <h1>audiophile</h1>
-            {/* <img src={navimage} alt=" audiophilelogo" /> */}
+            <img src={audiophilelogo} alt=" audiophilelogo" />
           </a>
           <button
             className="navbar-toggler"

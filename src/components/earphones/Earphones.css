@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
+}
+.earphones {
+  margin: 0 1rem;
+}
+.header h4 {
+  background-color: #191919;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 5rem 0 2rem;
+}
+
+.Zx9 {
+  margin: 5rem 0;
+}
+.earphones .desktop {
+  display: none;
+}
+.earphones .tablet {
+  display: none;
+}
+.earphones .mobile {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.earphonestext {
+  margin: auto;
+  width: 327px;
+}
+.earphones h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #d87d4a;
+  margin: 2rem;
+}
+.earphones h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.earphones p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin: 1.5rem 0;
+}
+.earphones .btn {
+  color: #f1f1f1;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  border-radius: 0;
+  padding: 13px 2rem;
+  background-color: #d87d4a;
+  text-transform: uppercase;
+}
+.earphones .btn:hover {
+  color: #f1f1f1;
+  background-color: #fbaf85;
+}
+
+.Zx7 {
+  margin: 5rem 0;
+}
+
+.lastsec {
+  margin: 10rem 0;
+}
+.lastsec .pair {
+  position: relative;
+}
+
+.lastsec .greybox {
+  background-color: #f1f1f1;
+  padding: 7rem 0 2rem;
+  border-radius: 15px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.lastsec .greybox a:hover {
+  color: #d87d4a;
+}
+.lastsec .ximages {
+  width: 200px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 90%;
+  margin: auto;
+}
+.lastsec .pair h6 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1.07143px;
+  text-transform: uppercase;
+}
+.lastsec .pair a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+@media (min-width: 769px) and (max-width: 1198px) {
+  .earphones {
+    margin: 0 3rem;
+  }
+  .header h4 {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    padding: 5rem 0 2rem;
+  }
+  .earphones .desktop {
+    display: none;
+  }
+  .earphones .tablet {
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+  }
+  .earphones .mobile {
+    display: none;
+  }
+  .earphonestext {
+    margin: auto;
+    width: 572px;
+  }
+
+  .lastsec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    margin-bottom: 5rem;
+  }
+
+  .lastsec .greybox {
+    background-color: #f1f1f1;
+    padding: 7rem 0 2rem;
+    border-radius: 15px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1199px) {
+  .earphones {
+    margin: 0 5rem;
+  }
+  .header h4 {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    padding: 5rem 0 2rem;
+  }
+  .earphones .desktop {
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+  }
+  .earphones .tablet {
+    display: none;
+  }
+  .earphones .mobile {
+    display: none;
+  }
+  .Zx9 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .earphonestext {
+    margin: auto;
+    width: 445px;
+    text-align: start;
+  }
+  .earphones h6 {
+    text-align: start;
+    margin: 2rem 0;
+  }
+  .earphones h2 {
+    text-align: start;
+  }
+
+  .earphones p {
+    text-align: start;
+  }
+  .earphones .btn {
+    justify-content: start;
+    text-align: start;
+  }
+  .Zx7 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "right left";
+  }
+
+  .Zx7 .earphonestext {
+    grid-area: right;
+    margin-left: 0;
+  }
+
+  .lastsec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    margin-bottom: 5rem;
+  }
+
+  .lastsec .greybox {
+    background-color: #f1f1f1;
+    padding: 7rem 0 2rem;
+    border-radius: 15px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

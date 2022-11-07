@@ -7,7 +7,7 @@ import audiophilelogo from "../../../images/home/shared/desktop/audiophilelogo.p
 import facebook from "../../../images/home/shared/desktop/icon-facebook.svg";
 import twitter from "../../../images/home/shared/desktop/icon-twitter.svg";
 import instagram from "../../../images/home/shared/desktop/icon-instagram.svg";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (

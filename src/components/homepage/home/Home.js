@@ -17,6 +17,7 @@ import section4desktop from "../../../images/home/desktop/image-speaker-zx7.jpg"
 import section5mobile from "../../../images/home/mobile/image-earphones-yx1.jpg";
 import section5tablet from "../../../images/home/tablet/image-earphones-yx1.jpg";
 import section5desktop from "../../../images/home/desktop/image-earphones-yx1.jpg";
+import { Link } from "react-router-dom";
 
 const home = () => {
   return (
@@ -47,27 +48,28 @@ const home = () => {
           <img className="ximages" src={section2headphone} alt="" />
           <div className="greybox">
             <h6>Headphones</h6>
-            <a href="#">
+
+            <Link to="/headphones">
               Shop <img src={arrowright} alt="" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="pair">
           <img className="ximages" src={section2speaker} alt="" />
           <div className="greybox">
             <h6>Speakers</h6>
-            <a href="#">
+            <Link to="/speakers">
               Shop <img src={arrowright} alt="" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="pair">
           <img className="ximages" src={section2earphone} alt="" />
           <div className="greybox">
             <h6>Earphones</h6>
-            <a href="#">
+            <Link to="/earphones">
               Shop <img src={arrowright} alt="" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

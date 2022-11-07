@@ -74,6 +74,7 @@ body {
   border-radius: 0;
   padding: 13px 2rem;
   background-color: #d87d4a;
+  text-transform: uppercase;
 }
 .speakers .btn:hover {
   color: #f1f1f1;
@@ -201,7 +202,7 @@ body {
   .speakerstext {
     margin: auto;
     width: 445px;
-    justify-content: start;
+    text-align: start;
   }
   .speakers h6 {
     text-align: start;
