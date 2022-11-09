@@ -140,3 +140,24 @@ body {
   opacity: 1;
   padding-right: 1.5rem;
 }
+.gallery1 {
+  border-radius: 10px;
+  width: 100%;
+  margin: 1rem 0;
+}
+.gallery2 {
+  border-radius: 10px;
+  width: 100%;
+  margin: 1rem 0;
+}
+.gallery3 {
+  border-radius: 10px;
+  width: 100%;
+  margin: 1rem 0;
+}
+.youMay {
+  margin: 5rem 0;
+}
+.youMay h2 {
+  text-align: center;
+}
