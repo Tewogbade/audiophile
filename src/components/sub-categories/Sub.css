@@ -5,20 +5,22 @@ body {
 .subcat {
   margin: 0 2rem;
 }
-.header h4 {
-  background-color: #191919;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 38px;
-  text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #ffffff;
-  padding: 5rem 0 2rem;
+.gobackdiv {
+  text-align: start;
+  margin: 2rem 0;
 }
-
+.subcat .goback {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
 .section01 {
-  margin: 5rem 0;
+  margin: 2rem 0 5rem;
 }
 .subcat .desktop {
   display: none;
@@ -32,12 +34,10 @@ body {
 }
 
 .subcat .texts {
-  /* margin: auto; */
   text-align: start;
-  justify-content: start;
   width: 327px;
 }
-.subcat h6 {
+.section01 h6 {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -56,6 +56,14 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #000000;
+}
+.subcat h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.857143px;
+  text-transform: uppercase;
+  text-align: start;
 }
 .subcat h5 {
   font-weight: 700;
@@ -84,7 +92,7 @@ body {
 .subcat .couter {
   display: flex;
   background-color: #f1f1f1;
-  margin-right: 1rem;
+  margin-right: 2rem;
   padding: 10px;
 }
 .subcat .couter p {
@@ -122,8 +130,10 @@ body {
 .section02 {
   margin: 5rem 0;
 }
-.section02 p {
+.features {
   width: 327px;
+}
+.section02 p {
   font-weight: 500;
   font-size: 15px;
   line-height: 25px;
@@ -156,8 +166,185 @@ body {
   margin: 1rem 0;
 }
 .youMay {
-  margin: 5rem 0;
+  margin: 8rem 0 5rem;
 }
-.youMay h2 {
+.youMay h3 {
   text-align: center;
+}
+.youMaySubcat {
+  margin: 3rem 0;
+}
+.youMaySubcat h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 1.71429px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 2rem 0;
+}
+@media (min-width: 769px) and (max-width: 1198px) {
+  .subcat {
+    margin: 0 4rem;
+  }
+
+  .subcat .desktop {
+    display: none;
+  }
+  .subcat .tablet {
+    border-radius: 10px;
+    display: block;
+  }
+  .subcat .mobile {
+    display: none;
+  }
+
+  .section01 {
+    display: flex;
+    margin: 5rem 0;
+  }
+  .section01 img {
+    width: 281px;
+  }
+
+  .section01 .texts {
+    text-align: start;
+    width: 339.5px;
+    margin: auto;
+  }
+
+  .section01 h6 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 8.57143px;
+  }
+  .subcat h2 {
+    line-height: 32px;
+  }
+
+  .section02 {
+    margin: 5rem 0;
+  }
+  .features {
+    width: 689px;
+  }
+  .inTheBox {
+    display: flex;
+  }
+  .inTheBox h3 {
+    margin-right: 15rem;
+  }
+
+  .section03 .tablet {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 2rem;
+    grid-row: 2rem;
+  }
+
+  .tablet .gallery1 {
+    grid-column: span 1;
+  }
+
+  .tablet .gallery2 {
+    grid-column: span 1;
+  }
+
+  .tablet .gallery3 {
+    grid-row: span 2;
+  }
+  .youMay {
+    margin: 8rem 0 5rem;
+  }
+  .youMay .tablet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+  }
+}
+
+@media (min-width: 1199px) {
+  .subcat {
+    margin: 0 7rem;
+  }
+
+  .subcat .desktop {
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+  }
+  .subcat .tablet {
+    display: none;
+  }
+  .subcat .mobile {
+    display: none;
+  }
+
+  .section01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5rem 0;
+  }
+  .section01 img {
+    width: 540px;
+  }
+
+  .section01 .texts {
+    text-align: start;
+    width: 445px;
+    margin: auto;
+  }
+
+  .section01 h6 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 8.57143px;
+  }
+  .subcat h2 {
+    line-height: 32px;
+  }
+
+  .section02 {
+    display: flex;
+    margin: 5rem 0;
+  }
+  .features {
+    width: 635px;
+  }
+  .inTheBox {
+    display: block;
+    margin: 0 auto;
+  }
+  .inTheBox h3 {
+    margin-right: 15rem;
+  }
+
+  .section03 .desktop {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 2rem;
+    column-gap: 3rem;
+  }
+
+  .desktop .gallery1 {
+    grid-column: span 1;
+  }
+
+  .desktop .gallery2 {
+    grid-column: span 1;
+  }
+
+  .desktop .gallery3 {
+    grid-row: span 2;
+  }
+  .youMay {
+    margin: 8rem 0 5rem;
+  }
+  .youMay .desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+  }
 }

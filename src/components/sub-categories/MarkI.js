@@ -1,22 +1,23 @@
 import React from "react";
+
 import { Link } from "react-router-dom";
 import "../sub-categories/Sub.css";
 
-import markIIm from "../../images/headphones/product-xx99-mark-two-headphones/mobile/image-product.jpg";
-import markIIt from "../../images/headphones/product-xx99-mark-two-headphones/tablet/image-product.jpg";
-import markIId from "../../images/headphones/product-xx99-mark-two-headphones/desktop/image-product.jpg";
+import markIIm from "../../images/headphones/product-xx99-mark-one-headphones/mobile/image-product.jpg";
+import markIIt from "../../images/headphones/product-xx99-mark-one-headphones/tablet/image-product.jpg";
+import markIId from "../../images/headphones/product-xx99-mark-one-headphones/desktop/image-product.jpg";
 
-import markIIgallery1m from "../../images/headphones/product-xx99-mark-two-headphones/mobile/image-gallery-1.jpg";
-import markIIgallery2m from "../../images/headphones/product-xx99-mark-two-headphones/mobile/image-gallery-2.jpg";
-import markIIgallery3m from "../../images/headphones/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg";
+import markIIgallery1m from "../../images/headphones/product-xx99-mark-one-headphones/mobile/image-gallery-1.jpg";
+import markIIgallery2m from "../../images/headphones/product-xx99-mark-one-headphones/mobile/image-gallery-2.jpg";
+import markIIgallery3m from "../../images/headphones/product-xx99-mark-one-headphones/mobile/image-gallery-3.jpg";
 
-import markIIgallery1t from "../../images/headphones/product-xx99-mark-two-headphones/tablet/image-gallery-1.jpg";
-import markIIgallery2t from "../../images/headphones/product-xx99-mark-two-headphones/tablet/image-gallery-2.jpg";
-import markIIgallery3t from "../../images/headphones/product-xx99-mark-two-headphones/tablet/image-gallery-3.jpg";
+import markIIgallery1t from "../../images/headphones/product-xx99-mark-one-headphones/tablet/image-gallery-1.jpg";
+import markIIgallery2t from "../../images/headphones/product-xx99-mark-one-headphones/tablet/image-gallery-2.jpg";
+import markIIgallery3t from "../../images/headphones/product-xx99-mark-one-headphones/tablet/image-gallery-3.jpg";
 
-import markIIgallery1d from "../../images/headphones/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg";
-import markIIgallery2d from "../../images/headphones/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg";
-import markIIgallery3d from "../../images/headphones/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg";
+import markIIgallery1d from "../../images/headphones/product-xx99-mark-one-headphones/desktop/image-gallery-1.jpg";
+import markIIgallery2d from "../../images/headphones/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg";
+import markIIgallery3d from "../../images/headphones/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg";
 
 import imagexx99m from "../../images/home/shared/mobile/image-xx99-mark-one-headphones.jpg";
 import imagexx59m from "../../images/home/shared/mobile/image-xx59-headphones.jpg";
@@ -35,8 +36,7 @@ import section2speaker from "../../images/home/shared/desktop/image-category-thu
 import section2earphone from "../../images/home/shared/desktop/image-category-thumbnail-earphones.png";
 import arrowright from "../../images/home/shared/desktop/icon-arrow-right.svg";
 
-const MarkII = () => {
-  console.log(window.innerWidth);
+const MarkI = () => {
   return (
     <>
       <div className="subcat">
@@ -45,6 +45,7 @@ const MarkII = () => {
             Go back
           </Link>
         </div>
+
         <div className="section01">
           <div className="images">
             <img className="mobile" src={markIIm} alt="" />
@@ -246,4 +247,4 @@ const MarkII = () => {
   );
 };
 
-export default MarkII;
+export default MarkI;
