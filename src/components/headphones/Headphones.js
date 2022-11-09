@@ -39,9 +39,9 @@ const Headphones = () => {
               It redefines your premium headphone experience by reproducing the
               balanced depth and precision of studio-quality sound.
             </p>
-            <a href="#" className="btn">
+            <Link to="/headphones/markii" className="btn">
               See product
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -62,9 +62,9 @@ const Headphones = () => {
               mixing engineers, and music aficionados alike in studios and on
               the go.
             </p>
-            <a href="#" className="btn">
+            <Link to="/headphones/marki" className="btn">
               See product
-            </a>
+            </Link>
           </div>
         </div>
 

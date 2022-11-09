@@ -5,6 +5,7 @@ import Speakers from "./components/speakers/Speakers";
 import Earphones from "./components/earphones/Earphones";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
+import MarkII from "./components/sub-categories/MarkII";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="headphones" element={<Headphones />} />
             <Route path="speakers" element={<Speakers />} />
             <Route path="earphones" element={<Earphones />} />
+            <Route path="headphones/markii" element={<MarkII />} />
           </Route>
         </Routes>
       </BrowserRouter>

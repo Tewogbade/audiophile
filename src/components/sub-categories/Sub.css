@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
+}
+.subcat {
+  margin: 0 2rem;
+}
+.header h4 {
+  background-color: #191919;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 5rem 0 2rem;
+}
+
+.section01 {
+  margin: 5rem 0;
+}
+.subcat .desktop {
+  display: none;
+}
+.subcat .tablet {
+  display: none;
+}
+.subcat .mobile {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.subcat .texts {
+  /* margin: auto; */
+  text-align: start;
+  justify-content: start;
+  width: 327px;
+}
+.subcat h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: start;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #d87d4a;
+  margin: 2rem 0;
+}
+.subcat h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: start;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.subcat h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.subcat p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: start;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin: 1.5rem 0;
+}
+.addtocart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.subcat .couter {
+  display: flex;
+  background-color: #f1f1f1;
+  margin-right: 1rem;
+  padding: 10px;
+}
+.subcat .couter p {
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 1;
+  margin: auto;
+}
+.subcat button {
+  border: none;
+  background: none;
+}
+.subcat .btn {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 0;
+  padding: 13px 2rem;
+  background-color: #d87d4a;
+  text-transform: uppercase;
+}
+.subcat .btn:hover {
+  color: #f1f1f1;
+  background-color: #fbaf85;
+}
+
+.section02 {
+  margin: 5rem 0;
+}
+.section02 p {
+  width: 327px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.inTheBox span {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #d87d4a;
+  opacity: 1;
+  padding-right: 1.5rem;
+}
