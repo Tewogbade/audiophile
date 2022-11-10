@@ -19,15 +19,15 @@ import markIIgallery1d from "../../images/headphones/product-xx99-mark-one-headp
 import markIIgallery2d from "../../images/headphones/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg";
 import markIIgallery3d from "../../images/headphones/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg";
 
-import imagexx99m from "../../images/home/shared/mobile/image-xx99-mark-one-headphones.jpg";
+import imagexx99m from "../../images/home/shared/mobile/image-xx99-mark-two-headphones.jpg";
 import imagexx59m from "../../images/home/shared/mobile/image-xx59-headphones.jpg";
 import imagezx9m from "../../images/home/shared/mobile/image-zx9-speaker.jpg";
 
-import imagexx99t from "../../images/home/shared/tablet/image-xx99-mark-one-headphones.jpg";
+import imagexx99t from "../../images/home/shared/tablet/image-xx99-mark-two-headphones.jpg";
 import imagexx59t from "../../images/home/shared/tablet/image-xx59-headphones.jpg";
 import imagezx9t from "../../images/home/shared/tablet/image-zx9-speaker.jpg";
 
-import imagexx99d from "../../images/home/shared/desktop/image-xx99-mark-one-headphones.jpg";
+import imagexx99d from "../../images/home/shared/desktop/image-xx99-mark-two-headphones.jpg";
 import imagexx59d from "../../images/home/shared/desktop/image-xx59-headphones.jpg";
 import imagezx9d from "../../images/home/shared/desktop/image-zx9-speaker.jpg";
 
@@ -55,14 +55,15 @@ const MarkI = () => {
           <div className="texts">
             <h6>New product</h6>
             <h2>
-              XX99 Mark II <br /> Headphones
+              XX99 Mark I <br /> Headphones
             </h2>
             <p>
-              The new XX99 Mark II headphones is the pinnacle of pristine audio.
-              It redefines your premium headphone experience by reproducing the
-              balanced depth and precision of studio-quality sound.
+              As the gold standard for headphones, the classic XX99 Mark I
+              offers detailed and accurate audio reproduction for audiophiles,
+              mixing engineers, and music aficionados alike in studios and on
+              the go.
             </p>
-            <h5>$2,999</h5>
+            <h5>$1,750</h5>
             <div className="addtocart">
               <div className="couter">
                 <button>-</button>
@@ -81,21 +82,20 @@ const MarkI = () => {
           <div className="features">
             <h3>Features</h3>
             <p>
-              Featuring a genuine leather head strap and premium earcups, these
-              headphones deliver superior comfort for those who like to enjoy
-              endless listening. It includes intuitive controls designed for any
-              situation. Whether you’re taking a business call or just in your
-              own personal space, the auto on/off and pause features ensure that
-              you’ll never miss a beat.
+              As the headphones all others are measured against, the XX99 Mark I
+              demonstrates over five decades of audio expertise, redefining the
+              critical listening experience. This pair of closed-back headphones
+              are made of industrial, aerospace-grade materials to emphasize
+              durability at a relatively light weight of 11 oz.
             </p>
             <p>
-              The advanced Active Noise Cancellation with built-in equalizer
-              allow you to experience your audio world on your terms. It lets
-              you enjoy your audio in peace, but quickly interact with your
-              surroundings when you need to. Combined with Bluetooth 5. 0
-              compliant connectivity and 17 hour battery life, the XX99 Mark II
-              headphones gives you superior sound, cutting-edge technology, and
-              a modern design aesthetic.
+              From the handcrafted microfiber ear cushions to the robust metal
+              headband with inner damping element, the components work together
+              to deliver comfort and uncompromising sound. Its closed-back
+              design delivers up to 27 dB of passive noise cancellation,
+              reducing resonance by reflecting sound to a dedicated absorber.
+              For connectivity, a specially tuned cable is included with a
+              balanced gold connector.
             </p>
           </div>
           <div className="inTheBox">
@@ -112,9 +112,6 @@ const MarkI = () => {
               </p>
               <p>
                 <span>1x</span> 3.5mm 5m audio cable
-              </p>
-              <p>
-                <span>1x</span>Travel bag
               </p>
             </div>
           </div>
@@ -144,7 +141,7 @@ const MarkI = () => {
           <div className="mobile">
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99m} alt="" />
-              <h2>XX99 Mark I</h2>
+              <h2>XX99 Mark II</h2>
               <Link to="#" className="btn">
                 See product
               </Link>
