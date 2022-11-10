@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../sub-categories/Sub.css";
 
@@ -36,11 +36,23 @@ import section2earphone from "../../images/home/shared/desktop/image-category-th
 import arrowright from "../../images/home/shared/desktop/icon-arrow-right.svg";
 
 const Whitehp = () => {
+  const [count, setCount] = useState(1);
+  const decrease = () => {
+    setCount(count > 1 ? count - 1 : count);
+  };
+  const increase = () => {
+    setCount(count + 1);
+  };
+
+  const goBack = () => {
+    window.history.back();
+  };
+
   return (
     <>
       <div className="subcat">
         <div className="gobackdiv">
-          <Link className="goback" to="/headphones">
+          <Link className="goback" to="#" onClick={goBack}>
             Go back
           </Link>
         </div>
@@ -63,9 +75,9 @@ const Whitehp = () => {
             <h5>$899</h5>
             <div className="addtocart">
               <div className="couter">
-                <button>-</button>
-                <p>1</p>
-                <button>+</button>
+                <button onClick={decrease}>-</button>
+                <p> {count}</p>
+                <button onClick={increase}>+</button>
               </div>
 
               <Link to="#" className="btn">
@@ -139,21 +151,21 @@ const Whitehp = () => {
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99m} alt="" />
               <h2>XX99 Mark II</h2>
-              <Link to="#" className="btn">
+              <Link to="/headphones/markii" className="btn">
                 See product
               </Link>
             </div>
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx991m} alt="" />
               <h2>XX99 Mark I</h2>
-              <Link to="#" className="btn">
+              <Link to="/headphones/marki" className="btn">
                 See product
               </Link>
             </div>
             <div className="youMaySubcat">
               <img className="gallery1" src={imagezx9m} alt="" />
               <h2>ZX9 speaker</h2>
-              <Link to="#" className="btn">
+              <Link to="/speakers/zx9speaker" className="btn">
                 See product
               </Link>
             </div>
@@ -162,21 +174,21 @@ const Whitehp = () => {
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99t} alt="" />
               <h2>XX99 Mark II</h2>
-              <Link to="#" className="btn">
+              <Link to="/headphones/markii" className="btn">
                 See product
               </Link>
             </div>
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx991t} alt="" />
-              <h2>XX99 Mark II</h2>
-              <Link to="#" className="btn">
+              <h2>XX99 Mark I</h2>
+              <Link to="/headphones/marki" className="btn">
                 See product
               </Link>
             </div>
             <div className="youMaySubcat">
               <img className="gallery1" src={imagezx9t} alt="" />
               <h2>ZX9 speaker</h2>
-              <Link to="#" className="btn">
+              <Link to="/speakers/zx9speaker" className="btn">
                 See product
               </Link>
             </div>
@@ -185,21 +197,21 @@ const Whitehp = () => {
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99d} alt="" />
               <h2>XX99 Mark II</h2>
-              <Link to="#" className="btn">
+              <Link to="/headphones/markii" className="btn">
                 See product
               </Link>
             </div>
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx991d} alt="" />
               <h2>XXX99 Mark I</h2>
-              <Link to="#" className="btn">
+              <Link to="/headphones/marki" className="btn">
                 See product
               </Link>
             </div>
             <div className="youMaySubcat">
               <img className="gallery1" src={imagezx9d} alt="" />
               <h2>ZX9 speaker</h2>
-              <Link to="#" className="btn">
+              <Link to="/speakers/zx9speaker" className="btn">
                 See product
               </Link>
             </div>

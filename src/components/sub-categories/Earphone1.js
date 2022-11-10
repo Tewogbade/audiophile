@@ -1,33 +1,32 @@
 import React, { useState } from "react";
-
 import { Link } from "react-router-dom";
 import "../sub-categories/Sub.css";
 
-import markIIm from "../../images/headphones/product-xx99-mark-one-headphones/mobile/image-product.jpg";
-import markIIt from "../../images/headphones/product-xx99-mark-one-headphones/tablet/image-product.jpg";
-import markIId from "../../images/headphones/product-xx99-mark-one-headphones/desktop/image-product.jpg";
+import markIIm from "../../images/earphones/product-yx1-earphones/mobile/image-product.jpg";
+import markIIt from "../../images/earphones/product-yx1-earphones/tablet/image-product.jpg";
+import markIId from "../../images/earphones/product-yx1-earphones/desktop/image-product.jpg";
 
-import markIIgallery1m from "../../images/headphones/product-xx99-mark-one-headphones/mobile/image-gallery-1.jpg";
-import markIIgallery2m from "../../images/headphones/product-xx99-mark-one-headphones/mobile/image-gallery-2.jpg";
-import markIIgallery3m from "../../images/headphones/product-xx99-mark-one-headphones/mobile/image-gallery-3.jpg";
+import markIIgallery1m from "../../images/earphones/product-yx1-earphones/mobile/image-gallery-1.jpg";
+import markIIgallery2m from "../../images/earphones/product-yx1-earphones/mobile/image-gallery-2.jpg";
+import markIIgallery3m from "../../images/earphones/product-yx1-earphones/mobile/image-gallery-3.jpg";
 
-import markIIgallery1t from "../../images/headphones/product-xx99-mark-one-headphones/tablet/image-gallery-1.jpg";
-import markIIgallery2t from "../../images/headphones/product-xx99-mark-one-headphones/tablet/image-gallery-2.jpg";
-import markIIgallery3t from "../../images/headphones/product-xx99-mark-one-headphones/tablet/image-gallery-3.jpg";
+import markIIgallery1t from "../../images/earphones/product-yx1-earphones/tablet/image-gallery-1.jpg";
+import markIIgallery2t from "../../images/earphones/product-yx1-earphones/tablet/image-gallery-2.jpg";
+import markIIgallery3t from "../../images/earphones/product-yx1-earphones/tablet/image-gallery-3.jpg";
 
-import markIIgallery1d from "../../images/headphones/product-xx99-mark-one-headphones/desktop/image-gallery-1.jpg";
-import markIIgallery2d from "../../images/headphones/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg";
-import markIIgallery3d from "../../images/headphones/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg";
+import markIIgallery1d from "../../images/earphones/product-yx1-earphones/desktop/image-gallery-1.jpg";
+import markIIgallery2d from "../../images/earphones/product-yx1-earphones/desktop/image-gallery-2.jpg";
+import markIIgallery3d from "../../images/earphones/product-yx1-earphones/desktop/image-gallery-3.jpg";
 
-import imagexx99m from "../../images/home/shared/mobile/image-xx99-mark-two-headphones.jpg";
+import imagexx99m from "../../images/home/shared/mobile/image-xx99-mark-one-headphones.jpg";
 import imagexx59m from "../../images/home/shared/mobile/image-xx59-headphones.jpg";
 import imagezx9m from "../../images/home/shared/mobile/image-zx9-speaker.jpg";
 
-import imagexx99t from "../../images/home/shared/tablet/image-xx99-mark-two-headphones.jpg";
+import imagexx99t from "../../images/home/shared/tablet/image-xx99-mark-one-headphones.jpg";
 import imagexx59t from "../../images/home/shared/tablet/image-xx59-headphones.jpg";
 import imagezx9t from "../../images/home/shared/tablet/image-zx9-speaker.jpg";
 
-import imagexx99d from "../../images/home/shared/desktop/image-xx99-mark-two-headphones.jpg";
+import imagexx99d from "../../images/home/shared/desktop/image-xx99-mark-one-headphones.jpg";
 import imagexx59d from "../../images/home/shared/desktop/image-xx59-headphones.jpg";
 import imagezx9d from "../../images/home/shared/desktop/image-zx9-speaker.jpg";
 
@@ -36,7 +35,7 @@ import section2speaker from "../../images/home/shared/desktop/image-category-thu
 import section2earphone from "../../images/home/shared/desktop/image-category-thumbnail-earphones.png";
 import arrowright from "../../images/home/shared/desktop/icon-arrow-right.svg";
 
-const MarkI = () => {
+const Earphone1 = () => {
   const [count, setCount] = useState(1);
   const decrease = () => {
     setCount(count > 1 ? count - 1 : count);
@@ -48,6 +47,7 @@ const MarkI = () => {
   const goBack = () => {
     window.history.back();
   };
+
   return (
     <>
       <div className="subcat">
@@ -56,7 +56,6 @@ const MarkI = () => {
             Go back
           </Link>
         </div>
-
         <div className="section01">
           <div className="images">
             <img className="mobile" src={markIIm} alt="" />
@@ -64,17 +63,18 @@ const MarkI = () => {
             <img className="desktop" src={markIId} alt="" />
           </div>
           <div className="texts">
-            <h6></h6>
+            <h6>New product</h6>
             <h2>
-              XX99 Mark I <br /> Headphones
+              YX1 Wireless <br />
+              Earphones
             </h2>
             <p>
-              As the gold standard for headphones, the classic XX99 Mark I
-              offers detailed and accurate audio reproduction for audiophiles,
-              mixing engineers, and music aficionados alike in studios and on
-              the go.
+              Tailor your listening experience with bespoke dynamic drivers from
+              the new YX1 Wireless Earphones. Enjoy incredible high-fidelity
+              sound even in noisy environments with its active noise
+              cancellation feature.
             </p>
-            <h5>$1,750</h5>
+            <h5>$599</h5>
             <div className="addtocart">
               <div className="couter">
                 <button onClick={decrease}>-</button>
@@ -93,36 +93,40 @@ const MarkI = () => {
           <div className="features">
             <h3>Features</h3>
             <p>
-              As the headphones all others are measured against, the XX99 Mark I
-              demonstrates over five decades of audio expertise, redefining the
-              critical listening experience. This pair of closed-back headphones
-              are made of industrial, aerospace-grade materials to emphasize
-              durability at a relatively light weight of 11 oz.
+              Experience unrivalled stereo sound thanks to innovative acoustic
+              technology. With improved ergonomics designed for full day
+              wearing, these revolutionary earphones have been finely crafted to
+              provide you with the perfect fit, delivering complete comfort all
+              day long while enjoying exceptional noise isolation and truly
+              immersive sound.
             </p>
             <p>
-              From the handcrafted microfiber ear cushions to the robust metal
-              headband with inner damping element, the components work together
-              to deliver comfort and uncompromising sound. Its closed-back
-              design delivers up to 27 dB of passive noise cancellation,
-              reducing resonance by reflecting sound to a dedicated absorber.
-              For connectivity, a specially tuned cable is included with a
-              balanced gold connector.
+              The YX1 Wireless Earphones features customizable controls for
+              volume, music, calls, and voice assistants built into both
+              earbuds. The new 7-hour battery life can be extended up to 28
+              hours with the charging case, giving you uninterrupted play time.
+              Exquisite craftsmanship with a splash resistant design now
+              available in an all new white and grey color scheme as well as the
+              popular classic black.
             </p>
           </div>
           <div className="inTheBox">
             <h3>In the box</h3>
             <div>
               <p>
-                <span>1x</span> Headphone Unit
+                <span>2x</span> Earphone Unit
               </p>
               <p>
-                <span>2x</span>Replacement Earcups
+                <span>6x</span>Multi-size Earplugs
               </p>
               <p>
                 <span>1x</span>User Manual
               </p>
               <p>
-                <span>1x</span> 3.5mm 5m Audio Cable
+                <span>1x</span> USB-C Charging Cable
+              </p>
+              <p>
+                <span>1x</span>Travel Pouch
               </p>
             </div>
           </div>
@@ -152,8 +156,8 @@ const MarkI = () => {
           <div className="mobile">
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99m} alt="" />
-              <h2>XX99 Mark II</h2>
-              <Link to="/headphones/markii" className="btn">
+              <h2>XX99 Mark I</h2>
+              <Link to="/headphones/marki" className="btn">
                 See product
               </Link>
             </div>
@@ -175,8 +179,8 @@ const MarkI = () => {
           <div className="tablet">
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99t} alt="" />
-              <h2>XX99 Mark II</h2>
-              <Link to="/headphones/markii" className="btn">
+              <h2>XX99 Mark I</h2>
+              <Link to="/headphones/marki" className="btn">
                 See product
               </Link>
             </div>
@@ -198,8 +202,8 @@ const MarkI = () => {
           <div className="desktop">
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99d} alt="" />
-              <h2>XX99 Mark II</h2>
-              <Link to="/headphones/markii" className="btn">
+              <h2>XX99 Mark I</h2>
+              <Link to="/headphones/marki" className="btn">
                 See product
               </Link>
             </div>
@@ -219,7 +223,6 @@ const MarkI = () => {
             </div>
           </div>
         </div>
-
         <div className="lastsec">
           <div className="pair">
             <img className="ximages" src={section2headphone} alt="" />
@@ -255,4 +258,4 @@ const MarkI = () => {
   );
 };
 
-export default MarkI;
+export default Earphone1;

@@ -10,6 +10,7 @@ import MarkI from "./components/sub-categories/MarkI";
 import Whitehp from "./components/sub-categories/Whitehp";
 import Speaker1 from "./components/sub-categories/Speaker1";
 import Speaker2 from "./components/sub-categories/Speaker2";
+import Earphone1 from "./components/sub-categories/Earphone1";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
             <Route path="headphones/xx59" element={<Whitehp />} />
             <Route path="speakers/zx9speaker" element={<Speaker1 />} />
             <Route path="speakers/zx7speaker" element={<Speaker2 />} />
+            <Route
+              path="earphones/yx1wirelessearphone"
+              element={<Earphone1 />}
+            />
           </Route>
         </Routes>
       </BrowserRouter>

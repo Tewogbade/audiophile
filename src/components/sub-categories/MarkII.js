@@ -144,21 +144,21 @@ const MarkII = () => {
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99m} alt="" />
               <h2>XX99 Mark I</h2>
-              <Link to="#" className="btn">
+              <Link to="/headphones/marki" className="btn">
                 See product
               </Link>
             </div>
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx59m} alt="" />
               <h2>XX59</h2>
-              <Link to="#" className="btn">
+              <Link to="/headphones/xx59" className="btn">
                 See product
               </Link>
             </div>
             <div className="youMaySubcat">
               <img className="gallery1" src={imagezx9m} alt="" />
               <h2>ZX9 speaker</h2>
-              <Link to="#" className="btn">
+              <Link to="/speakers/zx9speaker" className="btn">
                 See product
               </Link>
             </div>
@@ -167,21 +167,21 @@ const MarkII = () => {
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99t} alt="" />
               <h2>XX99 Mark I</h2>
-              <Link to="#" className="btn">
+              <Link to="/headphones/marki" className="btn">
                 See product
               </Link>
             </div>
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx59t} alt="" />
               <h2>XX59</h2>
-              <Link to="#" className="btn">
+              <Link to="/headphones/xx59" className="btn">
                 See product
               </Link>
             </div>
             <div className="youMaySubcat">
               <img className="gallery1" src={imagezx9t} alt="" />
               <h2>ZX9 speaker</h2>
-              <Link to="#" className="btn">
+              <Link to="/speakers/zx9speaker" className="btn">
                 See product
               </Link>
             </div>
@@ -190,21 +190,21 @@ const MarkII = () => {
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99d} alt="" />
               <h2>XX99 Mark I</h2>
-              <Link to="#" className="btn">
+              <Link to="/headphones/marki" className="btn">
                 See product
               </Link>
             </div>
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx59d} alt="" />
               <h2>XX59</h2>
-              <Link to="#" className="btn">
+              <Link to="/headphones/xx59" className="btn">
                 See product
               </Link>
             </div>
             <div className="youMaySubcat">
               <img className="gallery1" src={imagezx9d} alt="" />
               <h2>ZX9 speaker</h2>
-              <Link to="#" className="btn">
+              <Link to="/speakers/zx9speaker" className="btn">
                 See product
               </Link>
             </div>

@@ -111,7 +111,10 @@ body {
   bottom: 90%;
   margin: auto;
 }
-.lastsec .pair h6 {
+.lastsec .greybox h6 {
+  color: #000000;
+  padding: 0;
+  margin: 0;
   font-weight: 700;
   font-size: 15px;
   line-height: 20px;

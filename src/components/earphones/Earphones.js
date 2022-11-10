@@ -36,9 +36,9 @@ const Earphones = () => {
               sound even in noisy environments with its active noise
               cancellation feature.
             </p>
-            <a href="#" className="btn">
+            <Link to="/earphones/yx1wirelessearphone" className="btn">
               See product
-            </a>
+            </Link>
           </div>
         </div>
 
