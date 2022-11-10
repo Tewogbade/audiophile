@@ -86,15 +86,28 @@ body {
   margin: 1.5rem 0;
 }
 .addtocart {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
 }
 .subcat .couter {
   display: flex;
   background-color: #f1f1f1;
-  margin-right: 2rem;
-  padding: 10px;
+  margin-right: 1rem;
+  width: 120px;
+  padding: 0 1rem;
 }
+
+.subcat .couter button {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
 .subcat .couter p {
   font-weight: 700;
   font-size: 13px;
