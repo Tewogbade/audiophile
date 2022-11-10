@@ -39,9 +39,9 @@ const Speakers = () => {
               connectivity -- creating new possibilities for more pleasing and
               practical audio setups.
             </p>
-            <a href="#" className="btn">
+            <Link to="/speakers/zx9speaker" className="btn">
               See product
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -62,9 +62,9 @@ const Speakers = () => {
               represents the top of the line powered speakers for home or studio
               use.
             </p>
-            <a href="#" className="btn">
+            <Link to="/speakers/zx7speaker" className="btn">
               See product
-            </a>
+            </Link>
           </div>
         </div>
 

@@ -77,17 +77,16 @@ const Headphones = () => {
           <div className="headphonestext">
             <h6>New product</h6>
             <h2>
-              XX99 Mark I <br /> Headphones
+              XX59 <br /> Headphones
             </h2>
             <p>
-              As the gold standard for headphones, the classic XX99 Mark I
-              offers detailed and accurate audio reproduction for audiophiles,
-              mixing engineers, and music aficionados alike in studios and on
-              the go.
+              Enjoy your audio almost anywhere and customize it to your specific
+              tastes with the XX59 headphones. The stylish yet durable versatile
+              wireless headset is a brilliant companion at home or on the move.
             </p>
-            <a href="#" className="btn">
+            <Link to="/headphones/xx59" className="btn">
               See product
-            </a>
+            </Link>
           </div>
         </div>
 
