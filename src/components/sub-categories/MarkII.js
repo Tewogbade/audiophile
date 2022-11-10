@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../sub-categories/Sub.css";
 
@@ -36,12 +36,23 @@ import section2earphone from "../../images/home/shared/desktop/image-category-th
 import arrowright from "../../images/home/shared/desktop/icon-arrow-right.svg";
 
 const MarkII = () => {
-  console.log(window.innerWidth);
+  const [count, setCount] = useState(1);
+  const decrease = () => {
+    setCount(count > 1 ? count - 1 : count);
+  };
+  const increase = () => {
+    setCount(count + 1);
+  };
+
+  const goBack = () => {
+    window.history.back();
+  };
+
   return (
     <>
       <div className="subcat">
         <div className="gobackdiv">
-          <Link className="goback" to="/headphones">
+          <Link className="goback" to="#" onClick={goBack}>
             Go back
           </Link>
         </div>
@@ -64,9 +75,9 @@ const MarkII = () => {
             <h5>$2,999</h5>
             <div className="addtocart">
               <div className="couter">
-                <button>-</button>
-                <p>1</p>
-                <button>+</button>
+                <button onClick={decrease}>-</button>
+                <p> {count}</p>
+                <button onClick={increase}>+</button>
               </div>
 
               <Link to="#" className="btn">
