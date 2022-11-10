@@ -20,15 +20,15 @@ import markIIgallery3d from "../../images/speakers/product-zx9-speaker/desktop/i
 
 import imagexx99m from "../../images/home/shared/mobile/image-xx99-mark-one-headphones.jpg";
 import imagexx59m from "../../images/home/shared/mobile/image-xx59-headphones.jpg";
-import imagezx9m from "../../images/home/shared/mobile/image-zx9-speaker.jpg";
+import imagezx7m from "../../images/home/shared/mobile/image-zx7-speaker.jpg";
 
 import imagexx99t from "../../images/home/shared/tablet/image-xx99-mark-one-headphones.jpg";
 import imagexx59t from "../../images/home/shared/tablet/image-xx59-headphones.jpg";
-import imagezx9t from "../../images/home/shared/tablet/image-zx9-speaker.jpg";
+import imagezx7t from "../../images/home/shared/tablet/image-zx7-speaker.jpg";
 
 import imagexx99d from "../../images/home/shared/desktop/image-xx99-mark-one-headphones.jpg";
 import imagexx59d from "../../images/home/shared/desktop/image-xx59-headphones.jpg";
-import imagezx9d from "../../images/home/shared/desktop/image-zx9-speaker.jpg";
+import imagezx7d from "../../images/home/shared/desktop/image-zx7-speaker.jpg";
 
 import section2headphone from "../../images/home/shared/desktop/image-category-thumbnail-headphones.png";
 import section2speaker from "../../images/home/shared/desktop/image-category-thumbnail-speakers.png";
@@ -40,7 +40,7 @@ const Speaker1 = () => {
     <>
       <div className="subcat">
         <div className="gobackdiv">
-          <Link className="goback" to="/headphones">
+          <Link className="goback" to="/speakers">
             Go back
           </Link>
         </div>
@@ -53,14 +53,16 @@ const Speaker1 = () => {
           <div className="texts">
             <h6>New product</h6>
             <h2>
-              XX99 Mark II <br /> Headphones
+              ZX9 <br />
+              Speaker
             </h2>
             <p>
-              The new XX99 Mark II headphones is the pinnacle of pristine audio.
-              It redefines your premium headphone experience by reproducing the
-              balanced depth and precision of studio-quality sound.
+              Upgrade your sound system with the all new ZX9 active speaker.
+              It’s a bookshelf speaker system that offers truly wireless
+              connectivity -- creating new possibilities for more pleasing and
+              practical audio setups.
             </p>
-            <h5>$2,999</h5>
+            <h5>$4,500</h5>
             <div className="addtocart">
               <div className="couter">
                 <button>-</button>
@@ -79,40 +81,40 @@ const Speaker1 = () => {
           <div className="features">
             <h3>Features</h3>
             <p>
-              Featuring a genuine leather head strap and premium earcups, these
-              headphones deliver superior comfort for those who like to enjoy
-              endless listening. It includes intuitive controls designed for any
-              situation. Whether you’re taking a business call or just in your
-              own personal space, the auto on/off and pause features ensure that
-              you’ll never miss a beat.
+              Connect via Bluetooth or nearly any wired source. This speaker
+              features optical, digital coaxial, USB Type-B, stereo RCA, and
+              stereo XLR inputs, allowing you to have up to five wired source
+              devices connected for easy switching. Improved bluetooth
+              technology offers near lossless audio quality at up to 328ft
+              (100m).
             </p>
             <p>
-              The advanced Active Noise Cancellation with built-in equalizer
-              allow you to experience your audio world on your terms. It lets
-              you enjoy your audio in peace, but quickly interact with your
-              surroundings when you need to. Combined with Bluetooth 5. 0
-              compliant connectivity and 17 hour battery life, the XX99 Mark II
-              headphones gives you superior sound, cutting-edge technology, and
-              a modern design aesthetic.
+              Discover clear, more natural sounding highs than the competition
+              with ZX9’s signature planar diaphragm tweeter. Equally important
+              is its powerful room-shaking bass courtesy of a 6.5” aluminum
+              alloy bass unit. You’ll be able to enjoy equal sound quality
+              whether in a large room or small den. Furthermore, you will
+              experience new sensations from old songs since it can respond to
+              even the subtle waveforms.
             </p>
           </div>
           <div className="inTheBox">
             <h3>In the box</h3>
             <div>
               <p>
-                <span>1x</span> Headphone unit
+                <span>2x</span> Speaker Unit
               </p>
               <p>
-                <span>2x</span>Replacement earcups
+                <span>2x</span>Speaker Cloth Panel
               </p>
               <p>
-                <span>1x</span>User manual
+                <span>1x</span>User Manual
               </p>
               <p>
-                <span>1x</span> 3.5mm 5m audio cable
+                <span>1x</span> 3.5mm 10m Audio Cable
               </p>
               <p>
-                <span>1x</span>Travel bag
+                <span>1x</span>10m Optical Cable
               </p>
             </div>
           </div>
@@ -141,6 +143,13 @@ const Speaker1 = () => {
 
           <div className="mobile">
             <div className="youMaySubcat">
+              <img className="gallery1" src={imagezx7m} alt="" />
+              <h2>ZX7 speaker</h2>
+              <Link to="#" className="btn">
+                See product
+              </Link>
+            </div>
+            <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99m} alt="" />
               <h2>XX99 Mark I</h2>
               <Link to="#" className="btn">
@@ -154,15 +163,15 @@ const Speaker1 = () => {
                 See product
               </Link>
             </div>
+          </div>
+          <div className="tablet">
             <div className="youMaySubcat">
-              <img className="gallery1" src={imagezx9m} alt="" />
-              <h2>ZX9 speaker</h2>
+              <img className="gallery1" src={imagezx7t} alt="" />
+              <h2>ZX7 speaker</h2>
               <Link to="#" className="btn">
                 See product
               </Link>
             </div>
-          </div>
-          <div className="tablet">
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99t} alt="" />
               <h2>XX99 Mark I</h2>
@@ -177,15 +186,16 @@ const Speaker1 = () => {
                 See product
               </Link>
             </div>
+          </div>
+
+          <div className="desktop">
             <div className="youMaySubcat">
-              <img className="gallery1" src={imagezx9t} alt="" />
-              <h2>ZX9 speaker</h2>
+              <img className="gallery1" src={imagezx7d} alt="" />
+              <h2>ZX7 speaker</h2>
               <Link to="#" className="btn">
                 See product
               </Link>
             </div>
-          </div>
-          <div className="desktop">
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99d} alt="" />
               <h2>XX99 Mark I</h2>
@@ -196,13 +206,6 @@ const Speaker1 = () => {
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx59d} alt="" />
               <h2>XX59</h2>
-              <Link to="#" className="btn">
-                See product
-              </Link>
-            </div>
-            <div className="youMaySubcat">
-              <img className="gallery1" src={imagezx9d} alt="" />
-              <h2>ZX9 speaker</h2>
               <Link to="#" className="btn">
                 See product
               </Link>

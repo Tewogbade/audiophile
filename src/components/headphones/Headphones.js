@@ -52,7 +52,7 @@ const Headphones = () => {
             <img className="desktop" src={headphonesMarkId} alt="" />
           </div>
           <div className="headphonestext">
-            <h6>New product</h6>
+            <h6></h6>
             <h2>
               XX99 Mark I <br /> Headphones
             </h2>
@@ -75,7 +75,7 @@ const Headphones = () => {
             <img className="desktop" src={headphonesxx59d} alt="" />
           </div>
           <div className="headphonestext">
-            <h6>New product</h6>
+            <h6></h6>
             <h2>
               XX59 <br /> Headphones
             </h2>

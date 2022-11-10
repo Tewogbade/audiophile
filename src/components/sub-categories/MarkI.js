@@ -53,7 +53,7 @@ const MarkI = () => {
             <img className="desktop" src={markIId} alt="" />
           </div>
           <div className="texts">
-            <h6>New product</h6>
+            <h6></h6>
             <h2>
               XX99 Mark I <br /> Headphones
             </h2>
@@ -102,16 +102,16 @@ const MarkI = () => {
             <h3>In the box</h3>
             <div>
               <p>
-                <span>1x</span> Headphone unit
+                <span>1x</span> Headphone Unit
               </p>
               <p>
-                <span>2x</span>Replacement earcups
+                <span>2x</span>Replacement Earcups
               </p>
               <p>
-                <span>1x</span>User manual
+                <span>1x</span>User Manual
               </p>
               <p>
-                <span>1x</span> 3.5mm 5m audio cable
+                <span>1x</span> 3.5mm 5m Audio Cable
               </p>
             </div>
           </div>

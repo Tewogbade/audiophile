@@ -51,7 +51,7 @@ const Whitehp = () => {
             <img className="desktop" src={markIId} alt="" />
           </div>
           <div className="texts">
-            <h6>New product</h6>
+            <h6></h6>
             <h2>
               XX59 <br /> Headphones
             </h2>

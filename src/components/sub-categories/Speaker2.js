@@ -40,7 +40,7 @@ const Speaker2 = () => {
     <>
       <div className="subcat">
         <div className="gobackdiv">
-          <Link className="goback" to="/headphones">
+          <Link className="goback" to="/speakers">
             Go back
           </Link>
         </div>
@@ -51,16 +51,17 @@ const Speaker2 = () => {
             <img className="desktop" src={markIId} alt="" />
           </div>
           <div className="texts">
-            <h6>New product</h6>
+            <h6></h6>
             <h2>
-              XX99 Mark II <br /> Headphones
+              ZX7 <br />
+              Speaker
             </h2>
             <p>
-              The new XX99 Mark II headphones is the pinnacle of pristine audio.
-              It redefines your premium headphone experience by reproducing the
-              balanced depth and precision of studio-quality sound.
+              Stream high quality sound wirelessly with minimal to no loss. The
+              ZX7 speaker uses high-end audiophile components that represents
+              the top of the line powered speakers for home or studio use.
             </p>
-            <h5>$2,999</h5>
+            <h5>$3,500</h5>
             <div className="addtocart">
               <div className="couter">
                 <button>-</button>
@@ -79,40 +80,39 @@ const Speaker2 = () => {
           <div className="features">
             <h3>Features</h3>
             <p>
-              Featuring a genuine leather head strap and premium earcups, these
-              headphones deliver superior comfort for those who like to enjoy
-              endless listening. It includes intuitive controls designed for any
-              situation. Whether you’re taking a business call or just in your
-              own personal space, the auto on/off and pause features ensure that
-              you’ll never miss a beat.
+              Reap the advantages of a flat diaphragm tweeter cone. This
+              provides a fast response rate and excellent high frequencies that
+              lower tiered bookshelf speakers cannot provide. The woofers are
+              made from aluminum that produces a unique and clear sound. XLR
+              inputs allow you to connect to a mixer for more advanced usage.
             </p>
             <p>
-              The advanced Active Noise Cancellation with built-in equalizer
-              allow you to experience your audio world on your terms. It lets
-              you enjoy your audio in peace, but quickly interact with your
-              surroundings when you need to. Combined with Bluetooth 5. 0
-              compliant connectivity and 17 hour battery life, the XX99 Mark II
-              headphones gives you superior sound, cutting-edge technology, and
-              a modern design aesthetic.
+              The ZX7 speaker is the perfect blend of stylish design and high
+              performance. It houses an encased MDF wooden enclosure which
+              minimises acoustic resonance. Dual connectivity allows pairing
+              through bluetooth or traditional optical and RCA input. Switch
+              input sources and control volume at your finger tips with the
+              included wireless remote. This versatile speaker is equipped to
+              deliver an authentic listening experience.
             </p>
           </div>
           <div className="inTheBox">
             <h3>In the box</h3>
             <div>
               <p>
-                <span>1x</span> Headphone unit
+                <span>2x</span> Speaker Unit
               </p>
               <p>
-                <span>2x</span>Replacement earcups
+                <span>2x</span>Speaker Cloth panel
               </p>
               <p>
-                <span>1x</span>User manual
+                <span>1x</span>User Manual
               </p>
               <p>
-                <span>1x</span> 3.5mm 5m audio cable
+                <span>1x</span> 3.5mm 7.5m Audio Cable
               </p>
               <p>
-                <span>1x</span>Travel bag
+                <span>1x</span>7.5m Optical Cable
               </p>
             </div>
           </div>
@@ -141,6 +141,13 @@ const Speaker2 = () => {
 
           <div className="mobile">
             <div className="youMaySubcat">
+              <img className="gallery1" src={imagezx9m} alt="" />
+              <h2>ZX9 speaker</h2>
+              <Link to="#" className="btn">
+                See product
+              </Link>
+            </div>
+            <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99m} alt="" />
               <h2>XX99 Mark I</h2>
               <Link to="#" className="btn">
@@ -154,15 +161,15 @@ const Speaker2 = () => {
                 See product
               </Link>
             </div>
+          </div>
+          <div className="tablet">
             <div className="youMaySubcat">
-              <img className="gallery1" src={imagezx9m} alt="" />
+              <img className="gallery1" src={imagezx9t} alt="" />
               <h2>ZX9 speaker</h2>
               <Link to="#" className="btn">
                 See product
               </Link>
             </div>
-          </div>
-          <div className="tablet">
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99t} alt="" />
               <h2>XX99 Mark I</h2>
@@ -177,15 +184,15 @@ const Speaker2 = () => {
                 See product
               </Link>
             </div>
+          </div>
+          <div className="desktop">
             <div className="youMaySubcat">
-              <img className="gallery1" src={imagezx9t} alt="" />
+              <img className="gallery1" src={imagezx9d} alt="" />
               <h2>ZX9 speaker</h2>
               <Link to="#" className="btn">
                 See product
               </Link>
             </div>
-          </div>
-          <div className="desktop">
             <div className="youMaySubcat">
               <img className="gallery1" src={imagexx99d} alt="" />
               <h2>XX99 Mark I</h2>
@@ -200,16 +207,8 @@ const Speaker2 = () => {
                 See product
               </Link>
             </div>
-            <div className="youMaySubcat">
-              <img className="gallery1" src={imagezx9d} alt="" />
-              <h2>ZX9 speaker</h2>
-              <Link to="#" className="btn">
-                See product
-              </Link>
-            </div>
           </div>
         </div>
-
         <div className="lastsec">
           <div className="pair">
             <img className="ximages" src={section2headphone} alt="" />

@@ -52,7 +52,7 @@ const Speakers = () => {
             <img className="desktop" src={speakersZx7d} alt="" />
           </div>
           <div className="speakerstext">
-            <h6>New product</h6>
+            <h6></h6>
             <h2>
               ZX7 <br /> speaker
             </h2>

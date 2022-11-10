@@ -101,19 +101,19 @@ const MarkII = () => {
             <h3>In the box</h3>
             <div>
               <p>
-                <span>1x</span> Headphone unit
+                <span>1x</span> Headphone Unit
               </p>
               <p>
-                <span>2x</span>Replacement earcups
+                <span>2x</span>Replacement Earcups
               </p>
               <p>
-                <span>1x</span>User manual
+                <span>1x</span>User Manual
               </p>
               <p>
-                <span>1x</span> 3.5mm 5m audio cable
+                <span>1x</span> 3.5mm 5m Audio Cable
               </p>
               <p>
-                <span>1x</span>Travel bag
+                <span>1x</span>Travel Bag
               </p>
             </div>
           </div>
