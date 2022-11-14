@@ -8,7 +8,6 @@ const Navbar = () => {
   const location = useLocation();
   const { pathname: exactLocation } = location;
   const checkLocation = exactLocation.split("/");
-  console.log(checkLocation);
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark  py-4" id="allnav">

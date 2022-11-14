@@ -137,8 +137,8 @@ body {
     text-align: start;
   }
   .lastitem {
-    display: grid;
-    grid-template-columns: 82% 18%;
+    display: flex;
+    justify-content: space-between;
   }
   .links {
     display: flex;
@@ -168,7 +168,6 @@ body {
     margin: 7rem;
     display: grid;
     grid-template-columns: 0 50% 50%;
-    grid-template-areas: "right left";
   }
 
   .fsection1 .desktop {
@@ -225,9 +224,8 @@ body {
     text-align: start;
   }
   .lastitem {
-    display: grid;
-    grid-template-columns: 90% 10%;
-    text-align: end;
+    display: flex;
+    justify-content: space-between;
   }
   .links {
     display: flex;

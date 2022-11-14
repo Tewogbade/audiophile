@@ -47,6 +47,8 @@ const Earphone1 = () => {
   const goBack = () => {
     window.history.back();
   };
+  // const earphone1cart = ["YX1 Wireless", markIIm, count];
+  // console.log(earphone1cart);
 
   return (
     <>

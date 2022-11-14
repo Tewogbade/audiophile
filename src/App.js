@@ -13,6 +13,8 @@ import Speaker2 from "./components/sub-categories/Speaker2";
 import Earphone1 from "./components/sub-categories/Earphone1";
 
 function App() {
+  // const { gobackdiv } = Earphone1;
+  // console.log(Earphone1());
   return (
     <div className="App">
       <BrowserRouter>
