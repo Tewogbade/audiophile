@@ -35,7 +35,7 @@ import section2speaker from "../../images/home/shared/desktop/image-category-thu
 import section2earphone from "../../images/home/shared/desktop/image-category-thumbnail-earphones.png";
 import arrowright from "../../images/home/shared/desktop/icon-arrow-right.svg";
 
-const Whitehp = () => {
+const Whitehp = ({ info, cartItems }) => {
   const [count, setCount] = useState(1);
   const decrease = () => {
     setCount(count > 1 ? count - 1 : count);
@@ -47,7 +47,11 @@ const Whitehp = () => {
   const goBack = () => {
     window.history.back();
   };
+  const [data] = info;
 
+  const addToCart = () => {
+    cartItems.push([markIIm, data.name.slice(0, 4), data.price, count]);
+  };
   return (
     <>
       <div className="subcat">
@@ -80,7 +84,7 @@ const Whitehp = () => {
                 <button onClick={increase}>+</button>
               </div>
 
-              <Link to="#" className="btn">
+              <Link to="#" className="btn" onClick={addToCart}>
                 Add to cart
               </Link>
             </div>

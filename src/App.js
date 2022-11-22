@@ -11,29 +11,55 @@ import Whitehp from "./components/sub-categories/Whitehp";
 import Speaker1 from "./components/sub-categories/Speaker1";
 import Speaker2 from "./components/sub-categories/Speaker2";
 import Earphone1 from "./components/sub-categories/Earphone1";
+import data from "./data.json";
+import { useState } from "react";
+import Cart from "./components/cart/Cart";
 
 function App() {
-  // const { gobackdiv } = Earphone1;
-  // console.log(Earphone1());
+  const [cartItems, setCartItems] = useState([]);
+
+  const markTwoData = data.filter(
+    (datum) => datum.slug === "xx99-mark-two-headphones"
+  );
+  const markOneData = data.filter(
+    (datum) => datum.slug === "xx99-mark-one-headphones"
+  );
+  const xx59Headphone = data.filter(
+    (datum) => datum.slug === "xx59-headphones"
+  );
+  const yx1earphones = data.filter((datum) => datum.slug === "yx1-earphones");
+
+  console.log(xx59Headphone);
+
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" exact element={<Layout />}>
+          <Route path="/" exact element={<Layout cartItems={cartItems} />}>
             <Route index element={<Home />} />
             <Route path="headphones" element={<Headphones />} />
             <Route path="speakers" element={<Speakers />} />
             <Route path="earphones" element={<Earphones />} />
-            <Route path="headphones/markii" element={<MarkII />} />
-            <Route path="headphones/marki" element={<MarkI />} />
-            <Route path="headphones/xx59" element={<Whitehp />} />
+            <Route
+              path="headphones/markii"
+              element={<MarkII info={markTwoData} cartItems={cartItems} />}
+            />
+            <Route
+              path="headphones/marki"
+              element={<MarkI info={markOneData} cartItems={cartItems} />}
+            />
+            <Route
+              path="headphones/xx59"
+              element={<Whitehp info={xx59Headphone} cartItems={cartItems} />}
+            />
             <Route path="speakers/zx9speaker" element={<Speaker1 />} />
             <Route path="speakers/zx7speaker" element={<Speaker2 />} />
             <Route
               path="earphones/yx1wirelessearphone"
-              element={<Earphone1 />}
+              element={<Earphone1 info={yx1earphones} cartItems={cartItems} />}
             />
           </Route>
+          <Route path="cart" element={<Cart cartItems={cartItems} />} />
         </Routes>
       </BrowserRouter>
     </div>

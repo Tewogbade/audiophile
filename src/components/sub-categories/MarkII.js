@@ -35,7 +35,7 @@ import section2speaker from "../../images/home/shared/desktop/image-category-thu
 import section2earphone from "../../images/home/shared/desktop/image-category-thumbnail-earphones.png";
 import arrowright from "../../images/home/shared/desktop/icon-arrow-right.svg";
 
-const MarkII = () => {
+const MarkII = ({ info, cartItems }) => {
   const [count, setCount] = useState(1);
   const decrease = () => {
     setCount(count > 1 ? count - 1 : count);
@@ -46,6 +46,12 @@ const MarkII = () => {
 
   const goBack = () => {
     window.history.back();
+  };
+
+  const [data] = info;
+
+  const addToCart = () => {
+    cartItems.push([markIIm, "XX99 MK II", data.price, count]);
   };
 
   return (
@@ -79,8 +85,7 @@ const MarkII = () => {
                 <p> {count}</p>
                 <button onClick={increase}>+</button>
               </div>
-
-              <Link to="#" className="btn">
+              <Link to="#" className="btn" onClick={addToCart}>
                 Add to cart
               </Link>
             </div>

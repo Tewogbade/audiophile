@@ -35,7 +35,7 @@ import section2speaker from "../../images/home/shared/desktop/image-category-thu
 import section2earphone from "../../images/home/shared/desktop/image-category-thumbnail-earphones.png";
 import arrowright from "../../images/home/shared/desktop/icon-arrow-right.svg";
 
-const Earphone1 = () => {
+const Earphone1 = ({ info, cartItems }) => {
   const [count, setCount] = useState(1);
   const decrease = () => {
     setCount(count > 1 ? count - 1 : count);
@@ -47,8 +47,11 @@ const Earphone1 = () => {
   const goBack = () => {
     window.history.back();
   };
-  // const earphone1cart = ["YX1 Wireless", markIIm, count];
-  // console.log(earphone1cart);
+  const [data] = info;
+
+  const addToCart = () => {
+    cartItems.push([markIIm, data.name.slice(0, 3), data.price, count]);
+  };
 
   return (
     <>
@@ -57,6 +60,10 @@ const Earphone1 = () => {
           <Link className="goback" to="#" onClick={goBack}>
             Go back
           </Link>
+          <img
+            src={"../../images/home/shared/desktop/icon-arrow-right.svg"}
+            alt=""
+          />
         </div>
         <div className="section01">
           <div className="images">
@@ -84,7 +91,7 @@ const Earphone1 = () => {
                 <button onClick={increase}>+</button>
               </div>
 
-              <Link to="#" className="btn">
+              <Link to="#" className="btn" onClick={addToCart}>
                 Add to cart
               </Link>
             </div>

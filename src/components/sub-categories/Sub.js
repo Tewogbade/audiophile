@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-
+import React from "react";
 import { Link } from "react-router-dom";
 import "../sub-categories/Sub.css";
 
@@ -36,7 +35,7 @@ import section2speaker from "../../images/home/shared/desktop/image-category-thu
 import section2earphone from "../../images/home/shared/desktop/image-category-thumbnail-earphones.png";
 import arrowright from "../../images/home/shared/desktop/icon-arrow-right.svg";
 
-const MarkI = ({ info, cartItems }) => {
+const Sub = () => {
   const [count, setCount] = useState(1);
   const decrease = () => {
     setCount(count > 1 ? count - 1 : count);
@@ -49,10 +48,6 @@ const MarkI = ({ info, cartItems }) => {
     window.history.back();
   };
 
-  const [data] = info;
-  const addToCart = () => {
-    cartItems.push([markIIm, "XX99 MK I", data.price, count]);
-  };
   return (
     <>
       <div className="subcat">
@@ -87,7 +82,7 @@ const MarkI = ({ info, cartItems }) => {
                 <button onClick={increase}>+</button>
               </div>
 
-              <Link to="#" className="btn" onClick={addToCart}>
+              <Link to="#" className="btn">
                 Add to cart
               </Link>
             </div>
@@ -260,4 +255,4 @@ const MarkI = ({ info, cartItems }) => {
   );
 };
 
-export default MarkI;
+export default Sub;
