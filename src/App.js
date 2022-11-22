@@ -27,9 +27,10 @@ function App() {
   const xx59Headphone = data.filter(
     (datum) => datum.slug === "xx59-headphones"
   );
-  const yx1earphones = data.filter((datum) => datum.slug === "yx1-earphones");
+  const zx7speaker = data.filter((datum) => datum.slug === "zx7-speaker");
+  const zx9speaker = data.filter((datum) => datum.slug === "zx9-speaker");
 
-  console.log(xx59Headphone);
+  const yx1earphones = data.filter((datum) => datum.slug === "yx1-earphones");
 
   return (
     <div className="App">
@@ -52,8 +53,14 @@ function App() {
               path="headphones/xx59"
               element={<Whitehp info={xx59Headphone} cartItems={cartItems} />}
             />
-            <Route path="speakers/zx9speaker" element={<Speaker1 />} />
-            <Route path="speakers/zx7speaker" element={<Speaker2 />} />
+            <Route
+              path="speakers/zx9speaker"
+              element={<Speaker1 info={zx9speaker} cartItems={cartItems} />}
+            />
+            <Route
+              path="speakers/zx7speaker"
+              element={<Speaker2 info={zx7speaker} cartItems={cartItems} />}
+            />
             <Route
               path="earphones/yx1wirelessearphone"
               element={<Earphone1 info={yx1earphones} cartItems={cartItems} />}

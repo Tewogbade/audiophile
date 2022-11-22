@@ -92,8 +92,8 @@ a:hover {
   color: #191919;
   background-color: #d87d4a;
   border-radius: 2rem;
-  left: 70%;
-  right: 0;
+  left: 50%;
+  right: 10%;
   top: -10%;
   bottom: 100%;
 }
@@ -195,6 +195,9 @@ li img {
     width: 313px;
     left: 95%;
     margin-top: 7rem;
+  }
+  .itemsindicator {
+    left: 70%;
   }
 }
 
